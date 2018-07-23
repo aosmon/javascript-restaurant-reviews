@@ -142,13 +142,12 @@ nav h1 a {
 }
 #restaurants-list li {
   background-color: #fff;
-  border: 2px solid #ccc;
-  font-family: Arial,sans-serif;
   margin: 15px;
   min-height: 380px;
-  padding: 0 30px 25px;
+  padding: 0px 0px 15px;
   text-align: left;
   width: 270px;
+  box-shadow: #bbb 1px 1px 2px;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
