@@ -150,25 +150,29 @@ createReviewHTML = (review) => {
   const li = document.createElement('li');
   const reviewHeader = document.createElement('div');
   const reviewBody = document.createElement('div');
-  reviewHeader.setAttribute('class', 'review-header');
-  reviewBody.setAttribute('class', 'review-body');
+  reviewHeader.setAttribute('class', 'header');
+  reviewBody.setAttribute('class', 'body');
   li.appendChild(reviewHeader);
   li.appendChild(reviewBody);
   
   const name = document.createElement('p');
   name.innerHTML = review.name;
+  name.setAttribute('class', 'name');
   reviewHeader.appendChild(name);
 
   const date = document.createElement('p');
   date.innerHTML = review.date;
+  date.setAttribute('class', 'date');
   reviewHeader.appendChild(date);
 
   const rating = document.createElement('p');
   rating.innerHTML = `Rating: ${review.rating}`;
+  rating.setAttribute('class', 'rating');
   reviewBody.appendChild(rating);
 
   const comments = document.createElement('p');
   comments.innerHTML = review.comments;
+  comments.setAttribute('class', 'comments');
   reviewBody.appendChild(comments);
 
   return li;
