@@ -109,6 +109,9 @@ nav h1 a {
   height: 50px;
   background-color: #3397DB;
   align-items: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 .filter-options h2 {
   color: white;
