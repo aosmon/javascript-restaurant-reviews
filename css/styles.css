@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+/*******  Normalize *********/
 html{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -10,6 +11,14 @@ html{
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
+*{
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+/****************************/
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
