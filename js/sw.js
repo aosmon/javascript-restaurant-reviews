@@ -6,6 +6,7 @@ self.addEventListener('install', function(event) {
   console.log("SW installed");
   event.waitUntil(self.skipWaiting()); // Activate worker immediately
   
+  //Cache files
   event.waitUntil(
     caches.open(staticCacheName).then(function(cache) {
       return cache.addAll([
@@ -16,7 +17,17 @@ self.addEventListener('install', function(event) {
         '/js/dbhelper.js',
         '/js/restaurant_info.js',
         '/css/styles.css',
-        '/data/restaurants.json'
+        '/data/restaurants.json',
+        '/img/1.jpg',
+        '/img/2.jpg',
+        '/img/3.jpg',
+        '/img/4.jpg',
+        '/img/5.jpg',
+        '/img/6.jpg',
+        '/img/7.jpg',
+        '/img/8.jpg',
+        '/img/9.jpg',
+        '/img/10.jpg'        
       ]);
     }).catch(function(err){
       console.log(err);
@@ -27,7 +38,6 @@ self.addEventListener('install', function(event) {
 
 self.addEventListener('activate', function(event) {
   //Delete all old caches
-  console.log("Deleted old caches, activated new cache");
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
       return Promise.all(
@@ -43,33 +53,9 @@ self.addEventListener('activate', function(event) {
 });
 
 self.addEventListener('fetch', function(event) {
-  console.log("Caught a fetch!");
-  event.respondWith(new Response("Hello world!"));
-});
-
-/*
-self.addEventListener('fetch', function(event) {
-  // TODO: respond to requests for the root page with
-  // the page skeleton from the cache
-
-  var requestUrl = new URL(event.request.url);
-
-  if(requestUrl.origin === location.origin){
-  	if(requestUrl.pathname === '/'){
-  		event.respondWith(caches.match('/skeleton'));
-  		return;
-  	}
-  }
-
   event.respondWith(
     caches.match(event.request).then(function(response) {
       return response || fetch(event.request);
     })
   );
 });
-
-self.addEventListener('message', function(event) {
-  if (event.data.action === 'skipWaiting') {
-    self.skipWaiting();
-  }
-});*/
