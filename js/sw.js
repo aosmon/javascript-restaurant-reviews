@@ -1,4 +1,4 @@
-var staticCacheName = 'rr-static-v1';
+var staticCacheName = 'rr-static-v2';
 
 console.log("SW startup");
 
@@ -26,31 +26,13 @@ self.addEventListener('install', function(event) {
 });
 
 self.addEventListener('activate', function(event) {
-  console.log("SW activated");
-});
-
-self.addEventListener('fetch', function(event) {
-  console.log("Caught a fetch!");
-  event.respondWith(new Response("Hello world!"));
-});
-
-/*
-self.addEventListener('install', function(event) {
-  
-  
-  
-  
-  // TODO: cache /skeleton rather than the root page
-  
-    
-});*/
-/*
-self.addEventListener('activate', function(event) {
+  //Delete all old caches
+  console.log("Deleted old caches, activated new cache");
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
       return Promise.all(
         cacheNames.filter(function(cacheName) {
-          return cacheName.startsWith('wittr-') &&
+          return cacheName.startsWith('rr-') &&
                  cacheName != staticCacheName;
         }).map(function(cacheName) {
           return caches.delete(cacheName);
@@ -60,6 +42,12 @@ self.addEventListener('activate', function(event) {
   );
 });
 
+self.addEventListener('fetch', function(event) {
+  console.log("Caught a fetch!");
+  event.respondWith(new Response("Hello world!"));
+});
+
+/*
 self.addEventListener('fetch', function(event) {
   // TODO: respond to requests for the root page with
   // the page skeleton from the cache
