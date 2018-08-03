@@ -36,12 +36,11 @@ ul, li {
 	color: #333;
 }
 a {
-	color: orange;
+	color: #f18200;
 	text-decoration: none;
 }
 a:hover, a:focus {
-	color: #3397db;
-	text-decoration: none;
+  text-decoration: underline;
 }
 a img{
 	border: none 0px #fff;
@@ -107,13 +106,13 @@ nav h1 a {
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-    color: #0275d8;
+    color: #f18200;
     text-decoration: none;
 }
 
 /* Add a color on mouse-over */
 #breadcrumb li a:hover {
-    color: #01447e;
+    color: chocolate;
     text-decoration: underline;
 }
 
@@ -163,7 +162,11 @@ nav h1 a {
   padding: .8125rem;
   padding-right: 2rem;
   padding-left: .5rem;
-  -webkit-appearance: none;
+/*  -webkit-appearance: none;*/
+}
+input:focus, select:focus {
+  outline: 0;
+  box-shadow: 0 0 8px 3px orange;
 }
 
 @media screen and (max-width: 650px) {
@@ -232,6 +235,16 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+#restaurants-list li a:hover{
+  background-color: #463e3e;
+}
+#restaurants-list li a:focus {
+  color: #fff !important;
+  box-shadow: 0 0 3px 3px orange;
+  -webkit-box-shadow: 0 0 3px 3px orange;
+  -moz-box-shadow: 0 0 3px 3px orange;
+  text-decoration: underline;
 }
 @media screen and (max-width: 609px) {
   #restaurants-list li {
