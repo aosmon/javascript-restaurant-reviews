@@ -162,7 +162,7 @@ nav h1 a {
   padding: .8125rem;
   padding-right: 2rem;
   padding-left: .5rem;
-/*  -webkit-appearance: none;*/
+  -webkit-appearance: none;
 }
 input:focus, select:focus {
   outline: 0;
@@ -238,17 +238,24 @@ input:focus, select:focus {
 }
 #restaurants-list li a:hover{
   background-color: #463e3e;
+  text-decoration: underline;
 }
 #restaurants-list li a:focus {
+  outline: 0;
   color: #fff !important;
-  box-shadow: 0 0 3px 3px orange;
-  -webkit-box-shadow: 0 0 3px 3px orange;
-  -moz-box-shadow: 0 0 3px 3px orange;
+  box-shadow: 0 0 8px 3px orange;
+  -webkit-box-shadow: 0 0 8px 3px orange;
+  -moz-box-shadow: 0 0 8px 3px orange;
   text-decoration: underline;
+  background-color: #463e3e;
 }
 @media screen and (max-width: 609px) {
   #restaurants-list li {
     width: 100%;
+  }
+  #restaurants-list li a {
+    padding: 14px 30px 10px;
+    height: 48px;
   }
 }
 @media screen and (min-width: 610px) and (max-width: 650px) {
@@ -320,7 +327,7 @@ input:focus, select:focus {
   width: 50%;
 }
 #reviews-container {
-  padding: 3rem 2.5rem 5rem;
+  padding: 3rem 1.5rem 5rem;
 }
 #reviews-container h2 {
   color: #f58500;
@@ -350,7 +357,7 @@ input:focus, select:focus {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
-  padding: 10px 30px;
+  padding: 10px 25px;
 }
 #reviews-list li p.name{
   color: #fff;
@@ -361,13 +368,13 @@ input:focus, select:focus {
   text-shadow: #000 1px 1px;
 }
 #reviews-list li .body{
-  padding: 20px 30px;
+  padding: 10px 20px;
 }
 #reviews-list li .rating {
   background-color: orange;
   color: #fff;
   padding: 5px;
-  width: 25%;
+  width: 100px;
   display: block;
   text-align: center;
   text-transform: uppercase;
