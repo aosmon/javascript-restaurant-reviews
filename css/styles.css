@@ -41,6 +41,9 @@ a {
 }
 a:hover, a:focus {
   text-decoration: underline;
+  box-shadow: 0 0 8px 3px orange;
+  -webkit-box-shadow: 0 0 8px 3px orange;
+  -moz-box-shadow: 0 0 8px 3px orange;
 }
 a img{
 	border: none 0px #fff;
