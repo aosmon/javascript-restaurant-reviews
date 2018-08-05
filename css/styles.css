@@ -196,7 +196,7 @@ input:focus, select:focus {
 }
 #restaurants-list li {
   background-color: #fff;
-  margin: 15px 5px;
+  margin: 15px 8px;
   min-height: 380px;
   padding: 0px 0px 10px;
   text-align: left;
@@ -215,7 +215,7 @@ input:focus, select:focus {
   min-width: 100%;
 }
 #restaurants-list li h3 {
-  color: #f18200;
+  color: #844803;
   font-family: Arial,sans-serif;
   font-size: 14pt;
   font-weight: 200;
@@ -230,7 +230,7 @@ input:focus, select:focus {
 }
 #restaurants-list li a {
   background-color: orange;
-  color: #fff;
+  color: #2f2626;
   display: block;
   font-size: 10pt;
   margin: 0 10px 0;
@@ -242,10 +242,11 @@ input:focus, select:focus {
 #restaurants-list li a:hover{
   background-color: #463e3e;
   text-decoration: underline;
+  color: #fff;
 }
 #restaurants-list li a:focus {
   outline: 0;
-  color: #fff !important;
+  color: #fff;
   box-shadow: 0 0 8px 3px orange;
   -webkit-box-shadow: 0 0 8px 3px orange;
   -moz-box-shadow: 0 0 8px 3px orange;
@@ -414,4 +415,8 @@ input:focus, select:focus {
   .inside #footer{
     width: 100%;
   }
+}
+/* ====================== Map ====================== */
+.leaflet-container a{
+  color: #6f3d04 !important;
 }
