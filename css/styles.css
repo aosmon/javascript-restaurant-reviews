@@ -109,8 +109,8 @@ nav h1 a {
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-    color: #f18200;
-    text-decoration: none;
+    color: #844803;
+    text-decoration: underline;
 }
 
 /* Add a color on mouse-over */
@@ -201,7 +201,7 @@ input:focus, select:focus {
   padding: 0px 0px 10px;
   text-align: left;
   width: 290px;
-  box-shadow: #bbb 1px 1px 2px;
+  border: 1px solid #eee;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -230,17 +230,18 @@ input:focus, select:focus {
 }
 #restaurants-list li a {
   background-color: orange;
-  color: #2f2626;
+  color: #442400;
   display: block;
   font-size: 10pt;
-  margin: 0 10px 0;
+  margin: 0 0 2px auto;
   padding: 8px 30px 10px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  width: fit-content;
 }
 #restaurants-list li a:hover{
-  background-color: #463e3e;
+  background-color: #442400;
   text-decoration: underline;
   color: #fff;
 }
@@ -251,7 +252,7 @@ input:focus, select:focus {
   -webkit-box-shadow: 0 0 8px 3px orange;
   -moz-box-shadow: 0 0 8px 3px orange;
   text-decoration: underline;
-  background-color: #463e3e;
+  background-color: #442400;
 }
 @media screen and (max-width: 609px) {
   #restaurants-list li {
@@ -296,7 +297,7 @@ input:focus, select:focus {
   width: 50%;
 }
 #restaurant-name {
-  color: #f18200;
+  color: #844803;
   font-family: Arial,sans-serif;
   font-size: 20pt;
   font-weight: 200;
