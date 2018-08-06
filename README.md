@@ -19,7 +19,7 @@ Starter code and files can be cloned or downloaded from this repository https://
 
 1. Fork and clone this repository
 
-2. From inside the new directory, launch a local client server using Python from your terminal:
+2. Navigate to the downloaded directory, launch a local client server using Python from your terminal:
 
 - Check the version of Python you have: `python -V`.  
 - For Python 2.x: `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.)  
