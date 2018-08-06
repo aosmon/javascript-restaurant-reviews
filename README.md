@@ -4,7 +4,7 @@ Restaurant Reviews App
 ## Project Overview: Stage 1
 
 **Restaurant Reviews** project is a part of the Udacity Front-End Web Developer nanodegree program. 
-Goal of the project was to incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, a static design page was provided that lacked accessibility and and required a design to be responsive on different sized displays and accessible for screen reader use. It alse lacked a service worker to begin the process of creating a seamless offline experience for users. The job was to update the code to resolve these issues while still maintaining the included functionality.
+Goal of the project was to incrementally convert a static webpage to a mobile-ready web application. In stage one, a static design page was provided that lacked accessibility and required its design to be responsive on different sized displays and accessible for screen reader use. It alse lacked a service worker to begin the process of creating a seamless offline experience for users. The goal was to update the code to resolve these issues while still maintaining the included functionality.
 Starter code and files can be cloned or downloaded from this repository https://github.com/udacity/mws-restaurant-stage-1.
 
 ## Project Requirements
