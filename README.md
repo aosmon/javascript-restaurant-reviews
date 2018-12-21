@@ -7,6 +7,11 @@ Restaurant Reviews App
 Goal of the project was to incrementally convert a static webpage to a mobile-ready web application. In stage one, a static design page was provided that lacked accessibility and required its design to be responsive on different sized displays and accessible for screen reader use. It alse lacked a service worker to begin the process of creating a seamless offline experience for users. The goal was to update the code to resolve these issues while still maintaining the included functionality.
 Starter code and files can be cloned or downloaded from this repository https://github.com/udacity/mws-restaurant-stage-1.
 
+<img width="1002" alt="screen shot 2018-08-06 at 12 17 25 pm" src="https://user-images.githubusercontent.com/26148396/50352884-89268a80-0514-11e9-9939-8a57a00b23d6.png">
+<img width="570" alt="screen shot 2018-08-06 at 12 18 00 pm" src="https://user-images.githubusercontent.com/26148396/50352903-92aff280-0514-11e9-8661-6abe99d9b86d.png">
+<img width="398" alt="screen shot 2018-08-06 at 12 18 45 pm" src="https://user-images.githubusercontent.com/26148396/50352908-95aae300-0514-11e9-878a-acbc583e3a29.png">
+<img width="398" alt="screen shot 2018-08-06 at 12 19 35 pm" src="https://user-images.githubusercontent.com/26148396/50352911-99d70080-0514-11e9-84c8-e4a997ebd5eb.png">
+
 ## Project Requirements
 
 **Make the provided site fully responsive.** All of the page elements should be usable and visible in any viewport, including desktop, tablet, and mobile displays. Images shouldn't overlap, and page elements should wrap when the viewport is too small to display them side by side.
