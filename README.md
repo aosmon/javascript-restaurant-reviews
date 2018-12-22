@@ -7,10 +7,11 @@ Restaurant Reviews App
 Goal of the project was to incrementally convert a static webpage to a mobile-ready web application. In stage one, a static design page was provided that lacked accessibility and required its design to be responsive on different sized displays and accessible for screen reader use. It alse lacked a service worker to begin the process of creating a seamless offline experience for users. The goal was to update the code to resolve these issues while still maintaining the included functionality.
 Starter code and files can be cloned or downloaded from this repository https://github.com/udacity/mws-restaurant-stage-1.
 
-<img width="1002" alt="screen shot 2018-08-06 at 12 17 25 pm" src="https://user-images.githubusercontent.com/26148396/50352884-89268a80-0514-11e9-9939-8a57a00b23d6.png">
-<img width="570" alt="screen shot 2018-08-06 at 12 18 00 pm" src="https://user-images.githubusercontent.com/26148396/50352903-92aff280-0514-11e9-8661-6abe99d9b86d.png">
-<img width="398" alt="screen shot 2018-08-06 at 12 18 45 pm" src="https://user-images.githubusercontent.com/26148396/50352908-95aae300-0514-11e9-878a-acbc583e3a29.png">
-<img width="398" alt="screen shot 2018-08-06 at 12 19 35 pm" src="https://user-images.githubusercontent.com/26148396/50352911-99d70080-0514-11e9-84c8-e4a997ebd5eb.png">
+<img width="595" alt="restaurant5" src="https://user-images.githubusercontent.com/26148396/50369080-f14d8e80-055d-11e9-95ad-9b53abcc8f63.png">
+<img width="595" alt="restaurant4" src="https://user-images.githubusercontent.com/26148396/50369081-f14d8e80-055d-11e9-9d81-f4c8105cf5dc.png">
+<img width="595" alt="restaurant3" src="https://user-images.githubusercontent.com/26148396/50369082-f14d8e80-055d-11e9-8b2e-5b8e59175aea.png">
+<img width="595" alt="restaurant2" src="https://user-images.githubusercontent.com/26148396/50369083-f14d8e80-055d-11e9-9a7a-1a30cca20064.png">
+<img width="1232" alt="restaurant1" src="https://user-images.githubusercontent.com/26148396/50369084-f14d8e80-055d-11e9-98d0-01ceec501e73.png">
 
 ## Project Requirements
 
